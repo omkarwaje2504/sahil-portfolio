@@ -7,8 +7,16 @@ import { motion } from "framer-motion";
  * DATA
  * ---------------------------------------------------------------------- */
 const SCHOOLS = [
-  { name: "St. Anthony's High School", years: "2017 – 2018", img: "/sahil-portfolio/images/school.png" },
-  { name: "Viva College — B.Com", years: "2022 – 2023", img: "/sahil-portfolio/images/college.png" },
+  {
+    name: "St. Anthony's High School",
+    years: "2017 – 2018",
+    img: "/sahil-portfolio/images/school.png",
+  },
+  {
+    name: "Viva College — B.Com",
+    years: "2022 – 2023",
+    img: "/sahil-portfolio/images/college.png",
+  },
 ];
 
 const JOBS = [
@@ -27,30 +35,84 @@ const JOBS = [
 ];
 
 const GRAPHIC_POSTS = [
-  { src: "/sahil-portfolio/images/post-watch.jpg", alt: "Luxury Watch ad graphic" },
-  { src: "/sahil-portfolio/images/post-white-clouds.jpg", alt: "White Clouds movie poster" },
-  { src: "/sahil-portfolio/images/post-candyman.jpg", alt: "Solo Music Concert of Candy Man poster" },
-  { src: "/sahil-portfolio/images/post-wedding.jpg", alt: "West Palm Beach Resort wedding venue ad" },
-  { src: "/sahil-portfolio/images/post-firstsip.jpg", alt: "First Sip resort experience ad" },
-  { src: "/sahil-portfolio/images/post-dubai.jpg", alt: "Study in Dubai promotional graphic" },
-  { src: "/sahil-portfolio/images/post-meghalaya.jpg", alt: "Meghalaya's Weather resort ad" },
+  {
+    src: "/sahil-portfolio/images/post-watch.jpg",
+    alt: "Luxury Watch ad graphic",
+  },
+  {
+    src: "/sahil-portfolio/images/post-white-clouds.jpg",
+    alt: "White Clouds movie poster",
+  },
+  {
+    src: "/sahil-portfolio/images/post-candyman.jpg",
+    alt: "Solo Music Concert of Candy Man poster",
+  },
+  {
+    src: "/sahil-portfolio/images/post-wedding.jpg",
+    alt: "West Palm Beach Resort wedding venue ad",
+  },
+  {
+    src: "/sahil-portfolio/images/post-firstsip.jpg",
+    alt: "First Sip resort experience ad",
+  },
+  {
+    src: "/sahil-portfolio/images/post-dubai.jpg",
+    alt: "Study in Dubai promotional graphic",
+  },
+  {
+    src: "/sahil-portfolio/images/post-meghalaya.jpg",
+    alt: "Meghalaya's Weather resort ad",
+  },
 ];
 
 const VIDEO_EDITS = [
-  { src: "/sahil-portfolio/images/video-gaming.jpg", alt: "Animated gaming lifestyle reel thumbnail" },
-  { src: "/sahil-portfolio/images/video-wildpines.jpg", alt: "Wildpines property walkthrough reel thumbnail" },
-  { src: "/sahil-portfolio/images/video-bundela.jpg", alt: "Explored Bundela travel reel thumbnail" },
-  { src: "/sahil-portfolio/images/video-restaurant.jpg", alt: "Restaurant reel thumbnail" },
-  { src: "/sahil-portfolio/images/video-hotelcare.jpg", alt: "Hotel housekeeping care reel thumbnail" },
-  { src: "/sahil-portfolio/images/video-bachelor.jpg", alt: "Bachelor party event reel thumbnail" },
+  {
+    src: "/sahil-portfolio/images/video-gaming.jpg",
+    alt: "Animated gaming lifestyle reel thumbnail",
+  },
+  {
+    src: "/sahil-portfolio/images/video-wildpines.jpg",
+    alt: "Wildpines property walkthrough reel thumbnail",
+  },
+  {
+    src: "/sahil-portfolio/images/video-bundela.jpg",
+    alt: "Explored Bundela travel reel thumbnail",
+  },
+  {
+    src: "/sahil-portfolio/images/video-restaurant.jpg",
+    alt: "Restaurant reel thumbnail",
+  },
+  {
+    src: "/sahil-portfolio/images/video-hotelcare.jpg",
+    alt: "Hotel housekeeping care reel thumbnail",
+  },
+  {
+    src: "/sahil-portfolio/images/video-bachelor.jpg",
+    alt: "Bachelor party event reel thumbnail",
+  },
 ];
 
 const ILLUSTRATIONS = [
-  { src: "/sahil-portfolio/images/illust-whitecloud-girl.jpg", alt: "White Cloud anime-style character illustration" },
-  { src: "/sahil-portfolio/images/illust-boba-cat.jpg", alt: "Boba tea cat character illustration" },
-  { src: "/sahil-portfolio/images/illust-monkey.jpg", alt: "Cute monkey mascot illustration" },
-  { src: "/sahil-portfolio/images/illust-hoodie-girl.jpg", alt: "Purple-haired character in hoodie illustration" },
-  { src: "/sahil-portfolio/images/illust-sunglasses-portrait.jpg", alt: "Stylized portrait with orange sunglasses" },
+  {
+    src: "/sahil-portfolio/images/illust-whitecloud-girl.jpg",
+    alt: "White Cloud anime-style character illustration",
+  },
+  {
+    src: "/sahil-portfolio/images/illust-boba-cat.jpg",
+    alt: "Boba tea cat character illustration",
+  },
+  {
+    src: "/sahil-portfolio/images/illust-monkey.jpg",
+    alt: "Cute monkey mascot illustration",
+  },
+  {
+    src: "/sahil-portfolio/images/illust-hoodie-girl.jpg",
+    alt: "Purple-haired character in hoodie illustration",
+  },
+  {
+    src: "/sahil-portfolio/images/illust-sunglasses-portrait.jpg",
+    alt: "Stylized portrait with orange sunglasses",
+  },
 ];
 
 /* -------------------------------------------------------------------------
@@ -59,7 +121,11 @@ const ILLUSTRATIONS = [
 
 const fadeUp = {
   hidden: { opacity: 0, y: 32 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+  },
 };
 
 const fadeIn = {
@@ -74,17 +140,29 @@ const staggerContainer = {
 
 const scaleIn = {
   hidden: { opacity: 0, scale: 0.9 },
-  show: { opacity: 1, scale: 1, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } },
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] },
+  },
 };
 
 const heroWordLeft = {
   hidden: { opacity: 0, x: -60 },
-  show: { opacity: 1, x: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] },
+  },
 };
 
 const heroWordRight = {
   hidden: { opacity: 0, x: 60 },
-  show: { opacity: 1, x: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.15 } },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.15 },
+  },
 };
 
 /* -------------------------------------------------------------------------
@@ -109,7 +187,10 @@ function SectionTab({ children }) {
 
 function GalleryGrid({ id, title, items, aspect }) {
   return (
-    <section id={id} className="w-full bg-ink py-14 xs:py-16 sm:py-20 lg:py-24 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-28">
+    <section
+      id={id}
+      className="w-full bg-ink py-14 xs:py-16 sm:py-20 lg:py-24 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-28"
+    >
       <SectionTab>{title}</SectionTab>
       <motion.div
         variants={fadeIn}
@@ -168,36 +249,46 @@ export default function Home() {
         {/* ---------------- HERO ---------------- */}
         <section
           id="top"
-          className="relative w-full min-h-svh flex flex-col justify-end overflow-hidden pt-24 xs:pt-28 pb-0"
+          className="relative w-full h-[60dvh] lg:min-h-svh flex flex-col justify-end overflow-hidden pt-24 xs:pt-28 pb-0"
         >
+          <div className="absolute inset-0 flex items-end justify-center">
+            <img
+              src="/sahil-portfolio/images/sahil.png"
+              alt="sahil-image"
+              className="h-3/4 lg:h-5/6 2xl:h-full w-auto max-w-none object-contain"
+            />
+          </div>
           <div
             aria-hidden
             className="absolute inset-0 -z-20 bg-cover bg-center grayscale"
-            style={{ backgroundImage: "url('/sahil-portfolio/images/hero-bg.jpg')" }}
+            style={{
+              backgroundImage: "url('/sahil-portfolio/images/hero-bg.jpg')",
+            }}
           />
           <div
             aria-hidden
             className="absolute inset-0 -z-10 bg-gradient-to-b from-black/30 via-black/50 to-ink"
           />
 
-          <div className="w-full px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-28">
+          <div className="w-full px-2 xs:px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 2xl:px-16 z-50">
             <motion.div
               initial={{ opacity: 0, y: -12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="flex items-center justify-between text-[10px] xs:text-xs sm:text-sm font-bold uppercase tracking-[0.15em] xs:tracking-[0.2em] text-bolt mb-3 xs:mb-4"
+              className="flex w-full items-center justify-between text-xl lg:text-3xl font-bold uppercase tracking-[0.15em] xs:tracking-[0.2em] text-bolt mb-3 xs:mb-4"
             >
-              <span>Graphic Designer</span>
-              <span>Video Editor</span>
+              <span className="text-left">Graphic Designer</span>
+              <span className="text-right">Video Editor</span>
             </motion.div>
 
-            <h1 className="font-display leading-[0.85] text-[15vw] xs:text-[16vw] sm:text-[13vw] md:text-[10vw] lg:text-[9vw] xl:text-[8vw] 2xl:text-[7.5vw] flex flex-wrap gap-x-3 xs:gap-x-4">
-              <motion.span variants={heroWordLeft} initial="hidden" animate="show" className="text-brick">
-                SAIL
-              </motion.span>
-              <motion.span variants={heroWordRight} initial="hidden" animate="show" className="outline-text">
-                DHADVE
-              </motion.span>
+            <h1
+              className="font-display text-transparent leading-[0.78] text-[6rem] md:text-[9rem] lg:text-[12rem] 2xl:text-[19rem] tracking-[-0.055em] text-center w-full z-10 font-bold"
+              style={{
+                WebkitTextStroke: "2px white",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
+              SAIL DHADVE
             </h1>
           </div>
 
@@ -212,7 +303,10 @@ export default function Home() {
         </section>
 
         {/* ---------------- ABOUT ---------------- */}
-        <section id="about" className="w-full bg-ink py-14 xs:py-16 sm:py-20 lg:py-24 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-40">
+        <section
+          id="about"
+          className="w-full bg-ink py-14 xs:py-16 sm:py-20 lg:py-24 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-24 2xl:px-40"
+        >
           <SectionTab>HELLO I&apos;M A</SectionTab>
           <motion.div
             variants={fadeUp}
@@ -222,15 +316,20 @@ export default function Home() {
             className="w-full border border-white/30 rounded-2xl px-5 py-10 xs:px-6 xs:py-12 sm:px-10 sm:py-14 md:px-16 md:py-16 lg:px-24 text-center"
           >
             <p className="text-base xs:text-lg sm:text-xl lg:text-2xl leading-relaxed font-semibold text-chalk/90">
-              <span className="mark-red">Graphic Designer &amp; Video Editor</span>{" "}
-              with over <span className="mark-red">4 years</span> of professional
-              experience in creating impactful visual content and brand-focused
-              designs. Specialized in Adobe Illustrator, Photoshop, and Premiere
-              Pro, with strong expertise in visual storytelling, branding, and
-              multimedia production. Experienced in producing unique and creative
-              video content, engaging social media visuals, and high-quality
-              marketing materials, along with actively managing{" "}
-              <span className="mark-yellow">professional photo shoots and video shoots</span>{" "}
+              <span className="mark-red">
+                Graphic Designer &amp; Video Editor
+              </span>{" "}
+              with over <span className="mark-red">4 years</span> of
+              professional experience in creating impactful visual content and
+              brand-focused designs. Specialized in Adobe Illustrator,
+              Photoshop, and Premiere Pro, with strong expertise in visual
+              storytelling, branding, and multimedia production. Experienced in
+              producing unique and creative video content, engaging social media
+              visuals, and high-quality marketing materials, along with actively
+              managing{" "}
+              <span className="mark-yellow">
+                professional photo shoots and video shoots
+              </span>{" "}
               from concept to final execution. Passionate about delivering
               aesthetically refined, result-driven designs while continuously
               growing and evolving in the creative industry.
@@ -239,7 +338,10 @@ export default function Home() {
         </section>
 
         {/* ---------------- EDUCATION ---------------- */}
-        <section id="education" className="w-full bg-ink py-14 xs:py-16 sm:py-20 lg:py-24 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-28">
+        <section
+          id="education"
+          className="w-full bg-ink py-14 xs:py-16 sm:py-20 lg:py-24 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-28"
+        >
           <SectionTab>MY EDUCATION</SectionTab>
           <motion.div
             variants={staggerContainer}
@@ -249,7 +351,11 @@ export default function Home() {
             className="w-full border border-white/30 rounded-2xl px-5 py-10 xs:px-6 xs:py-12 sm:px-10 sm:py-14 md:px-14 lg:px-20 grid grid-cols-1 sm:grid-cols-2 gap-8 xs:gap-10 sm:gap-12 lg:gap-20"
           >
             {SCHOOLS.map((school) => (
-              <motion.figure key={school.name} variants={fadeUp} className="relative text-center">
+              <motion.figure
+                key={school.name}
+                variants={fadeUp}
+                className="relative text-center"
+              >
                 <figcaption className="font-bold text-base xs:text-lg lg:text-3xl mb-3 xs:mb-4">
                   {school.name}
                 </figcaption>
@@ -268,7 +374,10 @@ export default function Home() {
         </section>
 
         {/* ---------------- EXPERIENCE ---------------- */}
-        <section id="experience" className="w-full bg-ink py-14 xs:py-16 sm:py-20 lg:py-24 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-28">
+        <section
+          id="experience"
+          className="w-full bg-ink py-14 xs:py-16 sm:py-20 lg:py-24 px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-28"
+        >
           <SectionTab>EXPERIENCE</SectionTab>
           <motion.div
             variants={staggerContainer}
@@ -307,9 +416,24 @@ export default function Home() {
 
         {/* ---------------- WORK GALLERIES ---------------- */}
         <div id="work" className="w-full">
-          <GalleryGrid id="graphic-posts" title="GRAPHIC POST" items={GRAPHIC_POSTS} aspect="aspect-[4/5]" />
-          <GalleryGrid id="video-edits" title="VIDEOS EDIT" items={VIDEO_EDITS} aspect="aspect-[9/16]" />
-          <GalleryGrid id="illustrator" title="ILLUSTRATOR" items={ILLUSTRATIONS} aspect="aspect-square" />
+          <GalleryGrid
+            id="graphic-posts"
+            title="GRAPHIC POST"
+            items={GRAPHIC_POSTS}
+            aspect="aspect-[4/5]"
+          />
+          <GalleryGrid
+            id="video-edits"
+            title="VIDEOS EDIT"
+            items={VIDEO_EDITS}
+            aspect="aspect-[9/16]"
+          />
+          <GalleryGrid
+            id="illustrator"
+            title="ILLUSTRATOR"
+            items={ILLUSTRATIONS}
+            aspect="aspect-square"
+          />
         </div>
       </main>
 
@@ -321,7 +445,9 @@ export default function Home() {
         <div
           aria-hidden
           className="absolute inset-0 -z-20 bg-cover bg-center grayscale"
-          style={{ backgroundImage: "url('/sahil-portfolio/images/hero-bg.jpg')" }}
+          style={{
+            backgroundImage: "url('/sahil-portfolio/images/hero-bg.jpg')",
+          }}
         />
         <div
           aria-hidden
@@ -336,7 +462,8 @@ export default function Home() {
           className="w-full text-center"
         >
           <h2 className="font-display leading-[0.85] text-[15vw] xs:text-[16vw] sm:text-[13vw] md:text-[10vw] lg:text-[9vw] xl:text-[8vw] 2xl:text-[7.5vw]">
-            <span className="text-brick">THANK</span> <span className="outline-text">YOU</span>
+            <span className="text-brick">THANK</span>{" "}
+            <span className="outline-text">YOU</span>
           </h2>
 
           <div className="mt-8 xs:mt-10 flex flex-col sm:flex-row items-center justify-center gap-3 xs:gap-4 sm:gap-10 text-sm sm:text-base lg:text-lg font-semibold">
@@ -360,8 +487,6 @@ export default function Home() {
           </p>
         </motion.div>
       </footer>
-
-     
     </>
   );
 }
