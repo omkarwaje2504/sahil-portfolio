@@ -281,15 +281,29 @@ export default function Home() {
               <span className="text-right">Video Editor</span>
             </motion.div>
 
-            <h1
-              className="font-display text-transparent leading-[0.78] text-[6rem] md:text-[9rem] lg:text-[12rem] 2xl:text-[19rem] tracking-[-0.055em] text-center w-full z-10 font-bold"
-              style={{
-                WebkitTextStroke: "2px white",
-                WebkitTextFillColor: "transparent",
-              }}
-            >
-              SAIL DHADVE
-            </h1>
+           <h1
+  className="
+    font-display
+    text-transparent
+    leading-none
+    tracking-[-0.035em]
+    whitespace-nowrap
+    w-full
+    text-center
+    font-bold
+    text-[14vw]
+    sm:text-[13vw]
+    md:text-[11vw]
+    lg:text-[9.5vw]
+    xl:text-[12vw]
+  "
+  style={{
+    WebkitTextStroke: "clamp(1px, 0.15vw, 3px) white",
+    WebkitTextFillColor: "transparent",
+  }}
+>
+  SAIL DHADVE
+</h1>
           </div>
 
           <motion.div
