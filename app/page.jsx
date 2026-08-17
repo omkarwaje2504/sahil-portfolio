@@ -6,15 +6,6 @@ import { motion } from "framer-motion";
 /* -------------------------------------------------------------------------
  * DATA
  * ---------------------------------------------------------------------- */
-
-const NAV_LINKS = [
-  { href: "#about", label: "About" },
-  { href: "#education", label: "Education" },
-  { href: "#experience", label: "Experience" },
-  { href: "#work", label: "Work" },
-  { href: "#contact", label: "Contact" },
-];
-
 const SCHOOLS = [
   { name: "St. Anthony's High School", years: "2017 – 2018", img: "/images/school.png" },
   { name: "Viva College — B.Com", years: "2022 – 2023", img: "/images/college.png" },
