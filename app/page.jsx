@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
  * DATA
  * ---------------------------------------------------------------------- */
 const SCHOOLS = [
-  { name: "St. Anthony's High School", years: "2017 – 2018", img: "/images/school.png" },
-  { name: "Viva College — B.Com", years: "2022 – 2023", img: "/images/college.png" },
+  { name: "St. Anthony's High School", years: "2017 – 2018", img: "/sahil-portfolio/images/school.png" },
+  { name: "Viva College — B.Com", years: "2022 – 2023", img: "/sahil-portfolio/images/college.png" },
 ];
 
 const JOBS = [
@@ -27,30 +27,30 @@ const JOBS = [
 ];
 
 const GRAPHIC_POSTS = [
-  { src: "/images/post-watch.jpg", alt: "Luxury Watch ad graphic" },
-  { src: "/images/post-white-clouds.jpg", alt: "White Clouds movie poster" },
-  { src: "/images/post-candyman.jpg", alt: "Solo Music Concert of Candy Man poster" },
-  { src: "/images/post-wedding.jpg", alt: "West Palm Beach Resort wedding venue ad" },
-  { src: "/images/post-firstsip.jpg", alt: "First Sip resort experience ad" },
-  { src: "/images/post-dubai.jpg", alt: "Study in Dubai promotional graphic" },
-  { src: "/images/post-meghalaya.jpg", alt: "Meghalaya's Weather resort ad" },
+  { src: "/sahil-portfolio/images/post-watch.jpg", alt: "Luxury Watch ad graphic" },
+  { src: "/sahil-portfolio/images/post-white-clouds.jpg", alt: "White Clouds movie poster" },
+  { src: "/sahil-portfolio/images/post-candyman.jpg", alt: "Solo Music Concert of Candy Man poster" },
+  { src: "/sahil-portfolio/images/post-wedding.jpg", alt: "West Palm Beach Resort wedding venue ad" },
+  { src: "/sahil-portfolio/images/post-firstsip.jpg", alt: "First Sip resort experience ad" },
+  { src: "/sahil-portfolio/images/post-dubai.jpg", alt: "Study in Dubai promotional graphic" },
+  { src: "/sahil-portfolio/images/post-meghalaya.jpg", alt: "Meghalaya's Weather resort ad" },
 ];
 
 const VIDEO_EDITS = [
-  { src: "/images/video-gaming.jpg", alt: "Animated gaming lifestyle reel thumbnail" },
-  { src: "/images/video-wildpines.jpg", alt: "Wildpines property walkthrough reel thumbnail" },
-  { src: "/images/video-bundela.jpg", alt: "Explored Bundela travel reel thumbnail" },
-  { src: "/images/video-restaurant.jpg", alt: "Restaurant reel thumbnail" },
-  { src: "/images/video-hotelcare.jpg", alt: "Hotel housekeeping care reel thumbnail" },
-  { src: "/images/video-bachelor.jpg", alt: "Bachelor party event reel thumbnail" },
+  { src: "/sahil-portfolio/images/video-gaming.jpg", alt: "Animated gaming lifestyle reel thumbnail" },
+  { src: "/sahil-portfolio/images/video-wildpines.jpg", alt: "Wildpines property walkthrough reel thumbnail" },
+  { src: "/sahil-portfolio/images/video-bundela.jpg", alt: "Explored Bundela travel reel thumbnail" },
+  { src: "/sahil-portfolio/images/video-restaurant.jpg", alt: "Restaurant reel thumbnail" },
+  { src: "/sahil-portfolio/images/video-hotelcare.jpg", alt: "Hotel housekeeping care reel thumbnail" },
+  { src: "/sahil-portfolio/images/video-bachelor.jpg", alt: "Bachelor party event reel thumbnail" },
 ];
 
 const ILLUSTRATIONS = [
-  { src: "/images/illust-whitecloud-girl.jpg", alt: "White Cloud anime-style character illustration" },
-  { src: "/images/illust-boba-cat.jpg", alt: "Boba tea cat character illustration" },
-  { src: "/images/illust-monkey.jpg", alt: "Cute monkey mascot illustration" },
-  { src: "/images/illust-hoodie-girl.jpg", alt: "Purple-haired character in hoodie illustration" },
-  { src: "/images/illust-sunglasses-portrait.jpg", alt: "Stylized portrait with orange sunglasses" },
+  { src: "/sahil-portfolio/images/illust-whitecloud-girl.jpg", alt: "White Cloud anime-style character illustration" },
+  { src: "/sahil-portfolio/images/illust-boba-cat.jpg", alt: "Boba tea cat character illustration" },
+  { src: "/sahil-portfolio/images/illust-monkey.jpg", alt: "Cute monkey mascot illustration" },
+  { src: "/sahil-portfolio/images/illust-hoodie-girl.jpg", alt: "Purple-haired character in hoodie illustration" },
+  { src: "/sahil-portfolio/images/illust-sunglasses-portrait.jpg", alt: "Stylized portrait with orange sunglasses" },
 ];
 
 /* -------------------------------------------------------------------------
@@ -173,7 +173,7 @@ export default function Home() {
           <div
             aria-hidden
             className="absolute inset-0 -z-20 bg-cover bg-center grayscale"
-            style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
+            style={{ backgroundImage: "url('/sahil-portfolio/images/hero-bg.jpg')" }}
           />
           <div
             aria-hidden
@@ -321,7 +321,7 @@ export default function Home() {
         <div
           aria-hidden
           className="absolute inset-0 -z-20 bg-cover bg-center grayscale"
-          style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
+          style={{ backgroundImage: "url('/sahil-portfolio/images/hero-bg.jpg')" }}
         />
         <div
           aria-hidden
